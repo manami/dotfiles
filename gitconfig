@@ -54,6 +54,9 @@
   path = ~/.gitconfig.local
 [http]
   sslVerify = false
+[user]
+  name = Manamai Kobayashi
+  email = maa.xoxo@gmail.com
 [branch "master"]
   merge = refs/heads/master
   remote = origin
@@ -61,3 +64,9 @@
   tool = vimdiff
 [include]
   path = ~/.gitconfig.local
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
