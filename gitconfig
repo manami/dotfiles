@@ -43,11 +43,11 @@
 [core]
   editor = vim
   pager = less -r
-  excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
 [merge]
   ff = only
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 [fetch]
   prune = true
 [include]
@@ -55,8 +55,8 @@
 [http]
   sslVerify = false
 [user]
-  name = Manamai Kobayashi
-  email = maa.xoxo@gmail.com
+	name = kobayashi
+	email = kobayashi.m@astrolab.co.jp
 [branch "master"]
   merge = refs/heads/master
   remote = origin
