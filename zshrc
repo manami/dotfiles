@@ -190,3 +190,4 @@ fi
 
 # useful variables
 export df=$HOME/dotfiles
+source ~/.bin/tmuxinator.zsh
